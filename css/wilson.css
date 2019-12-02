@@ -1,0 +1,20 @@
+#wilson {
+	width: 70%;
+}
+
+#bubble {
+	background: url("../assets/bubble.png") no-repeat center;
+	background-size: contain;
+	height: 200px;
+	width: 100%;
+	font-size: 20px;
+    color: rgb(16 8 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+	height: 30%;
+    width: auto;
+}

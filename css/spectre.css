@@ -1,0 +1,28 @@
+.player {
+	width: 10vmin;
+	height: fit-content;
+	color: rgb(240, 234, 180);
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 5%;
+}
+
+p.playerName {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0;
+    margin: 0;
+}
+
+.spectre {
+	background: rgba(240, 234, 180, 0.4);
+	border: 5px solid rgb(16 8 6);
+	height: 20vmin;
+	display: flex;
+    flex-direction: row;
+}
+
+.spectre .block {
+	opacity: 0.6;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="snow.css">
+	<link rel="stylesheet" type="text/css" href="landscape.css">
+	<link rel="stylesheet" type="text/css" href="content.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="snow">
+		<div class="snow__layer"><div class="snow__fall"></div></div>
+		<div class="snow__layer"><div class="snow__fall"></div></div>
+		<div class="snow__layer">
+			<div class="snow__fall"></div>
+			<div class="snow__fall"></div>
+			<div class="snow__fall"></div>
+		</div>
+		<div class="snow__layer"><div class="snow__fall"></div></div>
+	</div>
+	<div class="landscape">
+		<div class="ground"></div>
+		<div class="lune"></div>
+		<img draggable="false" class="tree tree-xl" style="left: 0%; z-index: 100;" src="tree.png" />
+		<img draggable="false" class="tree tree-xl" style="left: 100%; z-index: 100;" src="tree.png" />
+		<img draggable="false" class="tree tree-xl" style="left: 12%; z-index: 300;" src="tree.png" />
+		<img draggable="false" class="tree tree-xl" style="left: 80%; z-index: 300;" src="tree.png" />
+		<img draggable="false" class="tree tree-xl" style="left: 50%; z-index: 300;" src="tree.png" />
+
+		<img draggable="false" class="tree tree-md" style="left: 5%; z-index: -100;" src="tree.png" />
+		<img draggable="false" class="tree tree-md" style="left: 20%; z-index: -100;" src="tree.png" />
+		<img draggable="false" class="tree tree-sm" style="left: 30%; z-index: -200;" src="tree.png" />
+		<img draggable="false" class="tree tree-sm" style="left: 40%; z-index: -200;" src="tree.png" />
+		<img draggable="false" class="tree tree-sm" style="left: 50%; z-index: -200;" src="tree.png" />
+		<img draggable="false" class="tree tree-sm" style="left: 60%; z-index: -300;" src="tree.png" />
+		<img draggable="false" class="tree tree-sm" style="left: 70%; z-index: -300;" src="tree.png" />
+		<img draggable="false" class="tree tree-sm" style="left: 80%; z-index: -300;" src="tree.png" />
+		<img draggable="false" class="tree tree-sm" style="left: 90%; z-index: -300;" src="tree.png" />
+		<img draggable="false" class="tree tree-sm" style="left: 100%; z-index: -300;" src="tree.png" />
+		<img draggable="false" class="tree" style="left: 15%; z-index: 100;" src="tree.png" />
+		<img draggable="false" class="tree" style="left: 75%; z-index: 100;" src="tree.png" />
+
+		<img draggable="false" class="vegetation" src="brindille.png" style="left: 0%;">
+		<img draggable="false" class="vegetation" src="brindille.png" style="left: 15%;">
+		<img draggable="false" class="vegetation" src="brindille.png" style="left: 30%;">
+
+		<img draggable="false" class="vegetation" src="brindille.png" style="left: 80%;">
+		<img draggable="false" class="vegetation" src="brindille.png" style="left: 75%;">
+		<img draggable="false" class="vegetation" src="brindille.png" style="left: 60%;">
+		
+		<img draggable="false" class="vegetation" src="roseau.png" style="left: 25%;">
+		<img draggable="false" class="vegetation" src="roseau.png" style="left: 40%;">
+		<img draggable="false" class="vegetation" src="roseau.png" style="left: 8%;">
+		<img draggable="false" class="vegetation" src="roseau.png" style="left: 70%;">
+		<img draggable="false" class="vegetation" src="roseau.png" style="left: 60%;">
+		<img draggable="false" class="vegetation" src="roseau.png" style="left: 90%;">
+
+		<div style="position: absolute; left: 45%;">
+			<div id="bubble-menu">Hello, wanna play?</div>
+			<img draggable="false" class="wilson" src="wilson.png">
+			<img draggable="false" class="tente" src="tente.png">
+			<img draggable="false" class="fire" src="fire.png">
+		</div>
+	</div>
+	<div class="content">
+		<!-- <div class="menu-login">
+			<div class="row">
+				<label for="pseudo">Votre nom:
+				<input type="text" id="pseudo" name="pseudo" value="Broubroubrou" />
+				</label>
+			</div>
+			<div class="row">
+				<button>Créer une partie</button>
+				<button>Rejoindre une partie</button>
+			</div>
+		</div> -->
+		<div class="menu-game">
+			<div class="column">
+				<div class="room">
+					<p class="title">
+						Mon nom de room
+						Mon nom de room
+						Mon nom de room
+						Mon nom de room
+						Mon nom de room
+						Mon nom de room
+						Mon nom de room
+						Mon nom de room
+						Mon nom de room
+						Mon nom de room
+						Mon nom de room
+						Mon nom de room
+						Mon nom de room
+					</p>
+					<p class="players">Joueurs 1/4</p>
+					<button class="btn-join">Rejoindre</button>
+				</div>
+
+				<div class="room">
+					<p class="title">Mon nom de room</p>
+					<p class="players">Joueurs 1/4</p>
+					<button class="btn-join">Rejoindre</button>
+				</div>
+				<div class="room">
+					<p class="title">Mon nom de room</p>
+					<p class="players">Joueurs 1/4</p>
+					<button class="btn-join">Rejoindre</button>
+				</div>
+				<div class="room">
+					<p class="title">Mon nom de room</p>
+					<p class="players">Joueurs 1/4</p>
+					<button class="btn-join">Rejoindre</button>
+				</div>
+				<div class="room">
+					<p class="title">Mon nom de room</p>
+					<p class="players">Joueurs 1/4</p>
+					<button class="btn-join">Rejoindre</button>
+				</div>
+				<div class="room">
+					<p class="title">Mon nom de room</p>
+					<p class="players">Joueurs 1/4</p>
+					<button class="btn-join">Rejoindre</button>
+				</div>
+				<div class="room">
+					<p class="title">Mon nom de room</p>
+					<p class="players">Joueurs 1/4</p>
+					<button class="btn-join">Rejoindre</button>
+				</div>
+				<div class="room">
+					<p class="title">Mon nom de room</p>
+					<p class="players">Joueurs 1/4</p>
+					<button class="btn-join">Rejoindre</button>
+				</div>
+				<div class="room">
+					<p class="title">Mon nom de room</p>
+					<p class="players">Joueurs 1/4</p>
+					<button class="btn-join">Rejoindre</button>
+				</div>
+				<div class="room">
+					<p class="title">Mon nom de room</p>
+					<p class="players">Joueurs 1/4</p>
+					<button class="btn-join">Rejoindre</button>
+				</div>
+				<div class="room">
+					<p class="title">Mon nom de room</p>
+					<p class="players">Joueurs 1/4</p>
+					<button class="btn-join">Rejoindre</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

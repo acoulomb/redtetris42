@@ -1,0 +1,10 @@
+.scoreVal {
+	background: rgba(240, 234, 180, 0.4);
+    border: 5px solid rgb(16 8 6);
+    margin-top: 3vmin;
+    min-height: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2vmin 0;
+}

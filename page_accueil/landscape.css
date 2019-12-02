@@ -1,0 +1,64 @@
+.landscape .ground{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 16%;
+	background: #7082a8;
+}
+
+.tree, .vegetation, .tente {
+	position: absolute;
+	bottom: 16%;
+	width: 35vmin;
+	filter: drop-shadow(0px 1px 1px #000000);
+}
+
+.tree-md{
+	width: 32vmin;
+}
+
+.tree-sm{
+	width: 28vmin;
+}
+
+.tree-xl{
+	bottom: 12%;
+}
+
+.vegetation{
+	width: 10vmin;
+}
+
+.lune {
+	position: absolute;
+	top: 5%;
+	right: 10%;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background: #9d9d9d;
+	box-shadow: 10px 10px 300px 19px rgba(255,255,255,1);
+}
+
+.tente, .wilson{
+	position: absolute;
+	bottom: 12%;
+	left: 59vmin;
+	width: 18vmin;
+}
+
+.wilson{
+	filter: drop-shadow(0px 0px 1px #FFFFFF);	
+}
+
+.fire {
+	position: absolute;
+	bottom: 6%;
+	width: 17vmin;
+	filter: drop-shadow(0px 0px 10px #FFFFFF);
+}
+
+.wilson {
+	width: 9vmin
+}

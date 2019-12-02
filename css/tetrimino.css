@@ -1,0 +1,30 @@
+.tetrimino {
+	height: 16vmin;
+	/* border: 5px solid; */
+	margin-top: 3vmin;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tetrimino .block {
+	width: 4vmin;
+	height: 4vmin;
+}
+.tetrimino .line {
+	height: 4vmin;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.box {
+	width: 20vmin;
+	position: relative;
+}
+
+.tetriminoBack {
+	height: 20vmin;
+	background-color: rgba(240, 234, 180, 0.4);
+	border: 5px solid;
+	margin-top: 3vmin;
+}

@@ -1,0 +1,40 @@
+DESIGN LOGIN:
+ ✔ Design login https://codepen.io/biokillos/embed/bEwrQv?height=450&theme-id=0&slug-hash=bEwrQv&default-tab=result&user=biokillos&embed-version=2&name=cp_embed_5#result-box @done (19-11-24 16:14)
+ ✔ Integre Wilson @done (19-11-24 16:14)
+ ✔ Creer une licorne @done (19-11-24 17:19)
+
+GAME DESIGN:
+  ✔ Interface jeu: Board, Spectre, Score total, Score du coup @done (19-11-24 17:19)
+  ✔ Integre Wilson avec ses repliques @done (19-11-24 17:19)
+  ✔ TNT @done (19-11-24 16:26)
+  ✔ Block de base @done (19-11-24 16:26)
+  ✔ Block couleur/chiffre @done (19-11-24 17:23)
+  ✔ Badge selon ton meilleur score @done (19-11-24 17:19)
+  ✔ Jauge Combo. @done (19-11-24 16:51)
+  ✔ Case bonus: Tnt, Freeze @done (19-11-24 17:19)
+  ✔ Preview de piece suivante @done (19-11-24 17:19)
+
+CLASSIC GAMERULES:
+  ✔ Limiter le nombre de joueur a 4 @done (19-11-29 12:05)
+
+YAMSAIRE GAMERULES:
+  ☐ Generation aleatoire des chiffres sur les blocks
+  ☐ Check Square, Full, Brelan, Suite, Yams lors d'une pose de piece
+  ☐ Combo au fail du piece on retombe a 0 sinon on incremente, arrive a une valeur on gagne un bonus
+
+SERVER:
+  ☐ Sauvegarder les meta donnes via un JWT. Signature cote serveur et on le stock sur le client. Il contient son nom, son meilleur score
+  ☐ 2 mode jeu, classic et yamsaire
+  ✔ Boucle de jeu a ecrire: 1 boucle de gravite qui descend la piece active @done (19-11-29 12:08)
+  ☐ URL de la room : parser
+
+  TEST:
+   ☐ Finir tests back
+   ☐ faire tests front
+
+BONUS:
+  ☐ Hold
+  ☐ TNT/Blind/Freeze
+  ☐ Score + combo
+  ☐ (Yams)
+  ☐ (Beau front)

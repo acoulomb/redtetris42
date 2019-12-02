@@ -1,0 +1,22 @@
+#right, #left {
+	height: 80vmin;
+	width: 20vmin;
+	position: relative;
+}
+
+#left {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+#right {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.spectres {
+	display: flex;
+	flex-wrap: wrap;
+}

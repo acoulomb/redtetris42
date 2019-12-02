@@ -1,0 +1,10 @@
+.DS_Store
+*~
+*.swp
+*.swo
+log
+tmp
+node_modules
+dist
+coverage
+.nyc_output

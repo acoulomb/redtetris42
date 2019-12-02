@@ -1,0 +1,177 @@
+body, html {
+	min-height: 100%;	
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+
+	background-color: #a0d4db;
+	background-color: black;
+	overflow: hidden;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	background: url("src/background.jpg") no-repeat center center fixed;
+	background-size: cover;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#board {
+	height: 80vmin;
+    width: 40vmin;
+    background: #fff3d4;
+	border: 5px solid rgb(16 8 6);
+	background: url("src/back.png") no-repeat center fixed;
+	background-color: black;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+}
+
+.banner {
+	background: url(src/banner.png) no-repeat;
+    background-size: contain;
+    min-height: 7vmin;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	position: absolute;
+    z-index: 1;
+    top: 0;
+    height: 7vmin;
+    width: inherit;
+}
+.banner p {
+	padding-bottom: 1vmin;
+}
+
+
+#right, #left {
+	height: 80vmin;
+	width: 20vmin;
+	position: relative;
+}
+
+#right {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.player {
+	width: 10vmin;
+	height: fit-content;
+	color: rgb(240, 234, 180);
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 5%;
+}
+
+p.playerName {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0;
+    margin: 0;
+}
+
+.spectre {
+	background: rgba(240, 234, 180, 0.4);
+	border: 5px solid rgb(16 8 6);
+	height: 20vmin;
+}
+
+.spectres {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.spectre .block {
+	opacity: 0.6;
+}
+
+#left {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+
+.box {
+	width: 20vmin;
+	position: relative;
+}
+
+#wilson {
+	width: 70%;
+}
+#unicorn {
+	width: 100%;
+}
+#unicorn-corn{
+	position: absolute;
+    background: url(src/unicorn.png);
+    background-repeat: no-repeat;
+    height: 29px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: 20vmin;
+    top: 0;
+}
+
+#bubble {
+	background: url("src/bubble.png") no-repeat center;
+	background-size: contain;
+	/* position: absolute; */
+	height: 200px;
+	/* width: 250px; */
+	width: 100%;
+	/* bottom: 300px; */
+	font-size: 20px;
+    color: rgb(16 8 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+	height: 5%;
+	display: flex;
+}
+.block {
+	width: 10%;
+}
+.tetrimino {
+	height: 16vmin;
+	background-color: rgba(240, 234, 180, 0.4);
+	border: 5px solid;
+	margin-top: 3vmin;
+}
+.tetrimino .block {
+	width: 4vmin;
+	height: 4vmin;
+}
+.tetrimino .line {
+	height: 4vmin;
+}
+
+.scoreVal {
+	background: rgba(240, 234, 180, 0.4);
+    border: 5px solid rgb(16 8 6);
+    margin-top: 3vmin;
+    min-height: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2vmin 0;
+}
