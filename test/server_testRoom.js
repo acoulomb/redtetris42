@@ -106,7 +106,6 @@ describe('Fake server test Room', function(){
 					isDone = true
 					store.dispatch(event.startNewGame(roomId, playerId[0]))
 				} else {
-					// console.log(action)
 					chai.assert(action.success === false)
 					done()
 				}

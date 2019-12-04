@@ -6,9 +6,14 @@ const Wilson = (props) => {
 			{
 				(props.textWilson || props.imgWilson)
 				? (
-					<div id="bubble" onClick={(e) => props.actionWilson && props.actionWilson()}>
+					<div id="bubble" 
+							onClick={(e) => props.actionWilson && props.actionWilson()}
+							style={props.textWilson && {animation: `hide 3s`, opacity: 0}}>
 						{props.imgWilson && (
 							<img className={props.classWilson} src={props.imgWilson} />
+						)}
+						{props.textWilson && (
+							<p>{props.textWilson}</p>
 						)}
 					</div>
 				)
@@ -16,7 +21,10 @@ const Wilson = (props) => {
 					<div id="bubble" style={{visibility: "hidden"}} />
 				)
 			}
-			<img id="wilson" src="assets/wilsontalk.png" />
+			{props.textWilson && (
+				<img id="wilsontalk" src="assets/wilsontalk.png" />
+			)}
+			<img id="wilson" src="assets/wilson.png" />
 		</div>
 	)
 }

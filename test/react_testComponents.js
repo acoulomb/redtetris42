@@ -15,9 +15,10 @@ import Tetrimino from '../src/client/components/tetrimino'
 import Spectre from '../src/client/components/spectre'
 import Score from '../src/client/components/score'
 import Landscape from '../src/client/components/landscape'
+import Board from '../src/client/components/board'
 import Bonus from '../src/client/components/bonus'
 
-describe('Login Component', () => {
+describe('Component', () => {
 	it('Login::', () => {
 		const initialState = { room: { players: [{ id: 'test', name: 'Zobane'}] } }
 		const store = createStore(reducers, initialState, applyMiddleware( thunk ))
@@ -91,6 +92,18 @@ describe('Landscape Component', () => {
 	it('Landscape::', () => {
 		const component = renderer.create(
 			<Landscape />
+		)
+ 	})
+})
+
+describe('Board Component', () => {
+	it('Board::', () => {
+		const initialState = { room: { name: 'Test' } }
+		const store = createStore(reducers, initialState, applyMiddleware( thunk ))
+		const component = renderer.create(
+			<Provider store={store}>
+				<Board />
+			</Provider>
 		)
  	})
 })

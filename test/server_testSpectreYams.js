@@ -50,14 +50,14 @@ describe('Server test Spectre', function(){
 	beforeEach(cb => {
 		spectre = new Spectre()
 		spectre.board = board
-		spectre.board.forEach(l => {
-			console.log(l.join(','))
-		})
+		// spectre.board.forEach(l => {
+		// 	console.log(l.join(','))
+		// })
 		spectre.checkBoardYams(piece)
-		console.log()
-		spectre.board.forEach(l => {
-			console.log(l.join(','))
-		})
+		// console.log()
+		// spectre.board.forEach(l => {
+		// 	console.log(l.join(','))
+		// })
 		cb()
 	})
 

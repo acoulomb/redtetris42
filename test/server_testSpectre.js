@@ -37,7 +37,6 @@ describe('Server test Spectre', function(){
 
 	it('Spectres:: It shouldn\'t collide with first piece', function(done) {
 		spectre.addPiece(piece, piece.position)
-		// spectre.board.map(l => console.log(l.toString()))
 		chai.assert(spectre.isCollide(piece, piece.position) === true)
 		done()
 	})
@@ -76,9 +75,7 @@ describe('Server test Spectre', function(){
 			square.setPosition([1, i])
 			spectre.addPiece(square, square.position)
 		}
-		// spectre.board.map(l => console.log(l.toString()))
 		spectre.checkBoard()
-		// spectre.board.map(l => console.log(l.toString()))
 		for (let i = 0; i < 10; i += 2) {
 			square.setPosition([1, i])
 			chai.assert(spectre.isCollide(square, square.position) === false)

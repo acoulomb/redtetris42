@@ -5,7 +5,7 @@ import Column from './column'
 import Modal from './modal'
 
 const Board = (props) => {
-
+	// console.log({props})
 	let init = false
 	const onKeyDown = (e) => {
 		props.onKeyDown(props.player.roomId, props.player.id, e)

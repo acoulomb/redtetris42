@@ -18,3 +18,24 @@
 	height: 30%;
     width: auto;
 }
+
+
+#wilsontalk {
+	position: absolute;
+	width: 70%;
+	animation: hide 3s;
+	opacity: 0;
+}
+
+@keyframes hide {
+	0% {
+	  opacity: 1;
+	}
+	75% {
+	  opacity: 1;
+	}
+  	100% {
+		opacity: 0;
+	}
+  }
+

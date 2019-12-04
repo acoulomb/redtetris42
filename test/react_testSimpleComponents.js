@@ -13,6 +13,7 @@ import Snow from '../src/client/components/snow'
 import Modal from '../src/client/components/modal'
 import Line from '../src/client/components/line'
 import Column from '../src/client/components/column'
+import Wilson from '../src/client/components/wilson'
 
 describe('Simple Components', () => {
 	it('Simple Components:: Snow', () => {
@@ -34,4 +35,14 @@ describe('Simple Components', () => {
 		const component = renderer.create(<Column data={[0,0,0,0]} />)
 		expect(component.root.findByProps({className: "board-column"}).children.length).toEqual(4)
  	})
+
+ 	it('Simple Components:: Wilson talks', () => {
+		const component = renderer.create(<Wilson textWilson='hello world' />)
+		expect(component.root.findByProps({id: "wilson-container"}).children.length).toEqual(3)
+	 })
+
+ 	it('Simple Components:: Wilson has image', () => {
+		const component = renderer.create(<Wilson imgWilson="assets/question.png" />)
+		expect(component.root.findByProps({id: "wilson-container"}).children.length).toEqual(2)
+	 })
 })

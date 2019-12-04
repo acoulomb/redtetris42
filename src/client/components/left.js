@@ -11,7 +11,9 @@ const Left = (props) => {
 			<Unicorn />
 			{props.game.endGame || props.game.endSoloGame
 				? <Wilson textWilson={props.textWilson} classWilson={props.classWilson} imgWilson={props.imgWilson} actionWilson={props.actionWilson} />
-				: <Wilson />
+				: ((props.game.bonusType != undefined || props.game.bonusType != null)
+					? <Wilson textWilson="Amazing !"/>
+					: <Wilson />)
 			}
 		</div>
 	)
