@@ -28,23 +28,23 @@ Grade: 125/100
 
 ## Dev environment
 <a href="https://nodejs.org/en/" target="_blank">
-    <img width="150" height='90' src="https://cdn.worldvectorlogo.com/logos/nodejs.svg">
+    <img width="150" height='auto' src="https://cdn.worldvectorlogo.com/logos/nodejs.svg">
 </a>
 
 <a href="https://www.npmjs.com" target="_blank">
-    <img width="100" height='50' style="display: none" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1280px-Npm-logo.svg.png">
+    <img width="100" height='auto' style="display: none" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1280px-Npm-logo.svg.png">
 </a>
 
 <a href="https://reactjs.org/" target="_blank">
-    <img width="120" height='120' src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png">
+    <img width="90" height='auto' src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png">
 </a>
 
 <a href="https://redux.js.org/" target="_blank">
-    <img width="120" height='120' src="https://redux.js.org/img/redux.svg">
+    <img width="90" height='auto' src="https://redux.js.org/img/redux.svg">
 </a>
 
 <a href="https://socket.io/" target="_blank">
-    <img width="120" height='120' src="https://socket.io/css/images/logo.svg">
+    <img width="150" height='auto' src="https://socket.io/css/images/logo.svg">
 </a>
 
 ## Objectives
