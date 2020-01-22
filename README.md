@@ -43,6 +43,10 @@ Grade: 125/100
     <img width="120" height='120' src="https://redux.js.org/img/redux.svg">
 </a>
 
+<a href="https://socket.io/" target="_blank">
+    <img width="120" height='120' src="https://socket.io/css/images/logo.svg">
+</a>
+
 ## Objectives
 - Full Stack Javascript
 - Functional programming
@@ -70,5 +74,5 @@ Grade: 125/100
 ![Screen Shot 2020-01-22 at 12 59 59 PM](https://user-images.githubusercontent.com/38137535/72892743-9b768780-3d17-11ea-904d-36123bc67098.png)
 
 ## Demo
-[Demo > ](https://drive.google.com/file/d/1Bq6rBJ_ObDBSbwsYV8NyhRVMhcuyS-Af/view?usp=sharing) 
+[Demo > ](https://drive.google.com/file/d/1Bq6rBJ_ObDBSbwsYV8NyhRVMhcuyS-Af/view?usp=sharing)   
 [Expert mode > ](https://drive.google.com/file/d/1S558GePRSwjd2fN0xoASnng5SQJZQX1u/view?usp=sharing)
