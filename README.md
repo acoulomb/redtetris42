@@ -8,7 +8,7 @@ The client code (browser) must be written without a call to "this" in the purpos
 
 Unit tests cover at least 70 of the statements, functions, lines and at least 50 of branches
 
-[Starter kit] (https://github.com/redpelicans/red_tetris_boilerplate/blob/master/README.md) 
+[Starter kit](https://github.com/redpelicans/red_tetris_boilerplate/blob/master/README.md) 
 
 For further information, please read [red_tetris.en.pdf](https://github.com/acoulomb/redtetris42/blob/master/red_tetris.en.pdf).
 
