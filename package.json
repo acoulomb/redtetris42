@@ -44,7 +44,7 @@
     "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-react": "^5.2.2",
     "expect": "^24.9.0",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.5.0",
     "mocha": "^2.5.3",
     "nyc": "^6.4.4",
     "react-addons-test-utils": "^15.6.2",
